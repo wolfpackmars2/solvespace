@@ -4,5 +4,8 @@
         <comment xml:lang="en">SolveSpace model</comment>
         <generic-icon name="solvespace"/>
         <glob pattern="*.slvs"/>
+        <magic priority="80">
+            <match type="string" offset="0" value="0xB1B2B3536F6C7665537061636552455661"/>
+        </magic>
     </mime-type>
 </mime-info>
